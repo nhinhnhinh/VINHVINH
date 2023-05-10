@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inder</title>
+    <link rel="stylesheet" href="./css.css" 
+    >
+</head>
+<body>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hoa roi</title>
+    <style>
+        .tuyet{
+            position: absolute;left: 0px;top: 0px;
+        }
+        .tuyetroi{padding-left:15px;
+            font-size:18px;
+            line-height:24px;
+            position:fixed;
+            color:#ebebeb;
+            user-select:none;
+            z-index:1000;
+            -moz-user-select:none;
+            -ms-user-select:none;
+            -khtml-user-select:none;
+            -webkit-user-select:none;
+            -webkit-touch-callout:none;}
+            body{background-color: rgb(231, 104, 104);}
+            .tuyetroi:hover{cursor:default;}
+    </style>
+</head>
+<body>
+   
+   
+        <div class="tuyet">
+
+            <p class="tuyetroi">🌸  ♥</p>
+            
+                    </div>
+<script> 
+
+var requestAnimationFrame=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||window.msRequestAnimationFrame;var transforms=["transform","msTransform","webkitTransform","mozTransform","oTransform"];var transformProperty=getSupportedPropertyName(transforms);var snowflakes=[];var browserWidth;var browserHeight;var numberOfSnowflakes=50;var resetPosition=false;function setup(){window.addEventListener("DOMContentLoaded",generateSnowflakes,false);window.addEventListener("resize",setResetFlag,false)}setup();function getSupportedPropertyName(b){for(var a=0;a<b.length;a++){if(typeof document.body.style[b[a]]!="undefined"){return b[a]}}return null}function Snowflake(b,a,d,e,c)
+{this.element=b;this.radius=a;this.speed=d;this.xPos=e;this.yPos=c;this.counter=0;this.sign=Math.random()<0.5?1:-1;
+this.element.style.opacity=0.5+Math.random();this.element.style.fontSize=4+Math.random()*30+"px"}Snowflake.prototype.update=function(){this.counter+=this.speed/5000;this.xPos+=this.sign*this.speed*Math.cos(this.counter)/40;this.yPos+=Math.sin(this.counter)/40+this.speed/30;setTranslate3DTransform(this.element,Math.round(this.xPos),Math.round(this.yPos));if(this.yPos>browserHeight){this.yPos=-50}};function setTranslate3DTransform(a,c,b){var d="translate3d("+c+"px, "+b+"px, 0)";a.style[transformProperty]=d}function generateSnowflakes(){var b=document.querySelector(".tuyetroi");var h=b.parentNode;browserWidth=document.documentElement.clientWidth;browserHeight=document.documentElement.clientHeight;for(var d=0;d<numberOfSnowflakes;d++){var j=b.cloneNode(true);h.appendChild(j);var e=getPosition(50,browserWidth);var a=getPosition(50,browserHeight);var c=5+Math.random()*40;var g=4+Math.random()*10;var f=new Snowflake(j,g,c,e,a);snowflakes.push(f)}h.removeChild(b);moveSnowflakes()}function moveSnowflakes(){for(var b=0;b<snowflakes.length;b++){var a=snowflakes[b];a.update()}if(resetPosition){browserWidth=document.documentElement.clientWidth;browserHeight=document.documentElement.clientHeight;for(var b=0;b<snowflakes.length;b++){var a=snowflakes[b];a.xPos=getPosition(50,browserWidth);a.yPos=getPosition(50,browserHeight)}resetPosition=false}requestAnimationFrame(moveSnowflakes)}function getPosition(b,a){return Math.round(-1*b+Math.random()*(a+2*b))}function setResetFlag(a){resetPosition=true};
+</script>
+
+    <div class="header"> 
+        <p class="name_banner"><marquee behavior="alternate">DU LỊCH CHÙA KHAI NGUYÊN </marquee></p>
+        <p class="hl1">HOTLINE: 02433 610 897 - 0986 611 496 Địa chỉ: Thôn Tây Ninh, xã Sơn Đông, TX Sơn Tây, TP Hà Nội </p>
+    </div>
+    <div class="menu_kk"> 
+        <div class="menu">
+            <ul class="root">
+                <li><a href="" class="href"> Trang chủ </a></li>
+                <li><a href="" class="href"> Giới thiệu </a>
+                <ul class="submenu">
+                    <li><a href="https://chuatanvien.com/">Lịch sử phát triển</a></li> 
+                    <li><a href="https://disantrangan.vn/chua-khai-nguyen-son-tay"> MỘT SỐ THÔNG TIN VỀ CHÙA </a></li> 
+                </ul>   
+                </li>
+                    <li><a href="https://amthucdochay.com/chua-khai-nguyen.html">CÁC  ĐIỀU CẦN BIẾT VỀ CHÙA KHAI NGUYÊN </a></li>  
+                </ul>   
+            </ul>
+        </div>
+    </div>
+    <div class="noidung">
+        <table class="bang">
+            <tr class="h1">
+                <td><img class="sp1" src="68adf7a89be572bb2bf4.jpg" alt="">
+                    <p>Điểm nhấn của chùa chính là bức tượng Phật A Di Đà lớn nhất Đông Nam Á, cao 72m, đường kính bệ tượng lên tới 1.200m2, được khởi dựng từ năm 2015, hiện vẫn trong quá trình hoàn thiện. 
+
+                        Bên trong pho đại tượng Phật gồm 13 tầng, trong đó 12 tầng được bố trí cho khách tham quan thờ Bồ Tát và tầng âm được xây dựng thành lục đạo luân hồi gồm nhiều cõi như a tu la, địa ngục, quỷ ngã….
+                        
+                        <br>
+                </td>
+                <td><img class="sp1" src="chua-khai-nguyen-3.jpg" alt="">
+                    <p>Chùa Khai Nguyên có niên đại lịch sử từ thời nhà Lý, do vị trí địa lý không thuận lợi nên chùa dần dần bị lãng quên, xuống cấp. Đến thời nhà Nguyễn, chùa Khai Nguyên được nhân dân chuyển về miếng đất mới ở trước cửa của đền Trung.Trải qua hai cuộc chiến tranh Pháp, Mỹ ngôi chùa đã bị tàn phá nghiêm trọng. Năm 1997, bà Vương Thị Nhật đã đứng lên kêu gọi mọi người tu sửa lại dưới sự đồng ý của các cấp chính quyền địa phương.
+
+                        Năm 2008, Đại đức Thích Đạo Thịnh đã được bổ nhiệm về trông nom chùa Khai Nguyên. Sau khi tiếp nhận, ông đã làm đơn xin chuyển chùa về vị trí cũ và được chấp thuận. Chùa Khai Nguyên đã chuyển về vị trí cũ trước cửa đền Trung vào tháng 7/2008.
+
+                        <br>
+                </td>
+                <td><img class="sp1" src="chua-khai-nguyen-son-tay-817821.jpg" alt="">
+                    <p>Tản Viên Sơn Quốc Tự có kiến trúc vô cùng đặc biệt, cổ kim kết hợp giao hòa. Chùa vừa mang vẻ đẹp của những kiến trúc cổ hòa quyện cùng với những đường nét hiện đại, thu hút rất đông du khách tới đây. So với các ngôi chùa như Yên Tử, Ngọc Hoàng thì chùa Khai Quang có diện tích nhỏ hơn nhưng nếu so sánh về kiến trúc thì không hề kém cạnh. Sự kết hợp giữa kim và cổ mang đến sự độc đáo, đặc sắc riêng cho ngôi chùa linh thiêng này.
+
+                        Chùa Khai Nguyên có tổng diện tích khoảng 5000m2, bao gồm tháp Trống, tháp Chuông, động Quan Âm, chính điện, suối Quan Âm và nội viện.Khu vực chính điện đặt ba pho tượng uy nghi, tráng lệ; tương truyền đây là ba vị thần Thánh Tản Sơn. Bên tả của chính điện là dãy nhà khách có diện tích khoảng 400m2, thiết kế hai tầng lạ mắt. Bên hữu là dãy Tăng Độ rộng khoảng 250m2, xây dựng theo kiến trúc một tầng mái ngói.
+                        
+                         <br>
+                </td>
+                <td><img class="sp1" src="th.jpg" alt="">
+                    <p>Chùa Khai Nguyên còn thu hút rất đông du khách bởi hệ thống tượng Phật. Trong ban Tam Bảo có tới 1975 pho tượng lớn nhỏ, tạo nên hình thái kiến trúc độc đáo.Ngoài ra, chùa Khai Nguyên còn lưu giữ một số di vật có giá trị như hai tấm bia đá có niên hiệu Cảnh Hưng thứ 19 (năm 1759) và Gia Long thứ 14 (năm 1815); 1 quả chuông đồng niên hiệu Tự Đức thứ 22 (năm 1870). Đây là nguồn sử liệu quý có giá trị văn hóa  - lịch sử của Tản Viên Sơn Quốc Tự.
+
+                        <br>
+                    
+                </td>
+                <td class="sp1"><br>
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/rurgleoAF_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <P> VIDEO GIỚI THIỆU VỀ CHÙA KHAI NGUYÊN </P>
+            </tr>
+           
+        </table>
+    </div>
+</body>
+</html>
